@@ -8,7 +8,8 @@ import java.util.Date;
  */
 public abstract class Vechile_19 implements Rentable_19 {
     
-   
+   public Date vechileStartDate;
+   public Date vechileEndDay;
     public int id;
 
    
@@ -65,6 +66,25 @@ public abstract class Vechile_19 implements Rentable_19 {
 
     public void setDailyFee(int dailyFee) {
         this.dailyFee = dailyFee;
+    }
+
+   
+    public Date getVechileStartDate() {
+        return vechileStartDate;
+    }
+
+    public void setVechileStartDate(Date vechileStartDate) {
+        this.vechileStartDate = vechileStartDate;
+    }
+
+    
+    public Date getVechileEndDay() {
+        return vechileEndDay;
+    }
+
+   
+    public void setVechileEndDay(Date vechileEndDay) {
+        this.vechileEndDay = vechileEndDay;
     }
         
             
