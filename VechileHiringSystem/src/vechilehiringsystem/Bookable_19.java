@@ -8,7 +8,7 @@ import java.util.Date;
  */
 public interface Bookable_19 {
     
-    public void bookMe(Date Start, Date End);
-    public void cancelMe();
+    public void bookMe(Date Start, Date End) throws SorryWeDontHaveThatOneExpection_19;
+    public void cancelme() throws NoCancellationYouMustPayException_19;
     
 }

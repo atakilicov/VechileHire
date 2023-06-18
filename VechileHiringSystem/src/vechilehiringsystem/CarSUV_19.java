@@ -7,15 +7,15 @@ package vechilehiringsystem;
 
 
 
-public class SUV_19 extends Car_19 implements Rentable_19 {
+public class CarSUV_19 extends Car_19 implements Rentable_19 {
     
     public String WD; // AWD, FWD, RWD
     
-    public SUV_19(){
+    public CarSUV_19(){
         
     }
     
-    public SUV_19(int id,final byte platenum,final byte numoftires,
+    public CarSUV_19(int id,final byte platenum,final byte numoftires,
             int dailyfee ,String color,byte SeatingCap,byte numOfDoors,String WD){
         
         super( id,platenum, numoftires,

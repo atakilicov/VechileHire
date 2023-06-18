@@ -28,15 +28,21 @@ public  class Truck_19 extends Vechile_19 implements Rentable_19, Bookable_19{
         this.loadingcap = loadingcap;
     }
     
-     @Override
+    @Override
     public void bookMe(Date S , Date F){
             
        
     } 
     
+  
     @Override
-    public void cancelMe(){
-        
+    public void rentme() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void cancelme() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }

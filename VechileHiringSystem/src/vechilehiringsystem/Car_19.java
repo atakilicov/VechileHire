@@ -71,6 +71,11 @@ public class Car_19 extends Vechile_19 implements Rentable_19 {
     public void setNumofdoors(byte numofdoors) {
         this.numofdoors = numofdoors;
     }
+
+    @Override
+    public void rentme() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
     

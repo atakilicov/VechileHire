@@ -5,15 +5,15 @@ package vechilehiringsystem;
  *
  * @author ATA
  */
-public class VechileHiringSystem_19 extends VechilePark_19 {
+public class VechileHiringSystem_19 extends UserOperations_19 {
 
    public static void main(String[] args) {
   boolean t=true;
     while(t){
-        
+       readfile(); 
     
         if (Areyouadmin()) {
-            readfile();
+            
             AdminPanel();
         } else 
             customerpanel();
